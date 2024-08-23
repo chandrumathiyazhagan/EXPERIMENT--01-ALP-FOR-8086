@@ -1,11 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
 
+Name :M.CHANDRU
 
+Roll no : 212222230026
 
-
+Date of experiment : 19.08.2023
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -34,74 +33,121 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
 
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
-
-
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
 
-
-
-
-
-
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
-
-
+## Addition of 8 bit ALP  
+```python
+Mov AL,74H
+Mov BL,69H
+Add AL,BL
+HLT
+```
 ## Output  
  
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
+![316391105-5f44a6c1-d56d-49ef-b0f9-a676ba1958e4](https://github.com/user-attachments/assets/1edc8c29-97eb-4993-8a17-5f2d57806739)
+
+## Subtraction of 8 bit ALP
+```python
+Mov AL,84H
+Mov BL,63H
+Sub AL,BL
+HLT
+```
+## Output
+
+![2](https://github.com/user-attachments/assets/67dfb63a-9240-44d5-a3c3-508f2d323882)
+
+## Multiplication ALP
+```python
+
+org 100h
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+
+ret
+```
  ## Output  
 
+![3](https://github.com/user-attachments/assets/8dbd1ca2-fb6f-4853-8ce0-3facdac515f4)
 
-## Division alp 
+## Division ALP
+```python
 
+org 100h
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+
+ret
+```
 ## Output  
 
+![4](https://github.com/user-attachments/assets/cd26527a-0dcb-4964-bae9-cd3cec45a637)
+
+## Programs for logical  operations
+
+## AND
+```python
+Mov AL,33H
+Mov BL,44H
+AND AL,BL
+HLT
+```
+## Output 
+
+![5](https://github.com/user-attachments/assets/29af7b48-5241-43dc-965d-c57c751ac495)
+
+## OR
+```python
+Mov AL,45H
+Mov BL,66H
+OR AL,BL
+HLT
+```
+## Output
+
+![6](https://github.com/user-attachments/assets/cc584bd3-2436-4d10-953c-d23bd67bb500)
+
+## NOT
+```python
+Mov AL,65H
+NOT AL
+HLT
+
+```
+## Output
+
+![7](https://github.com/user-attachments/assets/7645cbf4-d216-4035-876a-381ff4f2ece8)
+
+## XOR
+```python
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## Output
+
+![8](https://github.com/user-attachments/assets/ab23087e-23e3-4677-9e0e-893e553e94c7)
 
 ## Result :
+
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
  
-
-
-
-
-
-
-
-
