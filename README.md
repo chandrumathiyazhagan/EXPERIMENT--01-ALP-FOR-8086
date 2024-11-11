@@ -4,7 +4,7 @@ Name :M.CHANDRU
 
 Roll no : 212222230026
 
-Date of experiment : 19.08.2023
+Date of experiment : 09.08.2023
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
